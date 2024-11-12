@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="description"
         content="Generalizable Single-Image Human Gaussian Splatting with Structure Priors.">
-  
+
   <meta name="keywords" content="HumanSplat, 3DGS, Human Reconstruction">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HumanSplat: Generalizable Single-Image Human Gaussian Splatting with Structure Priors</title>
@@ -93,7 +93,7 @@
           * denotes equal contribution, † denotes project leader, ‡ denotes corresponding author
         </div>
 
-        <h4 class="is-size-5 publication-authors"><span style="color: #036bfc;">NeurIPS 24</span></h4>
+        <h4 class="is-size-5 publication-authors"><span style="color: #036bfc;">NeurIPS 2024</span></h4>
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
@@ -106,6 +106,7 @@
                   <span>Paper</span>
                 </a>
               </span>
+              <!-- ArXiv Link. -->
               <span class="link-block">
                 <a href="https://arxiv.org/abs/2406.12459"
                    class="external-link button is-normal is-rounded is-dark">
@@ -113,16 +114,6 @@
                       <i class="ai ai-arxiv"></i>
                   </span>
                   <span>arXiv</span>
-                </a>
-              </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="./"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
                 </a>
               </span>
               <!-- Code Link. -->
@@ -135,16 +126,6 @@
                   <span>Code (Coming Soon)</span>
                   </a>
               </span>
-              <!-- Dataset Link. -->
-              <!-- <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a>
-            </div> -->
 
           </div>
         </div>
@@ -153,9 +134,12 @@
   </div>
 </section>
 
+
+
+
  <!-- Paper video. -->
- <section class="hero teaser">
- <div class="columns is-centered has-text-centered">
+<section class="hero teaser">
+<div class="columns is-centered has-text-centered">
   <div class="column is-four-fifths">
     <div class="row">
       <div class="gallery">
@@ -206,7 +190,6 @@
   </div>
 </div>
 </section>
-<!--/ Paper video. -->
 
 
 
@@ -214,42 +197,44 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-    
+
       <img src="./static/images/overview.png" />
       <h2 class="title is-6 publication-title" align="center">
         <span class="dnerf">HumanSplat</span> predicts 3D Gaussian Splatting properties from a single input image in a generalizable manner.
       </h2>
 
-  </div>
+    </div>
   </div>
 </section>
 
 
+
+
+<!-- Abstract. -->
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <p>
- 
 
+          <p>
             Despite recent advancements in high-fidelity human reconstruction techniques, the requirements for densely captured images or time-consuming per-instance optimization significantly hinder their applications in broader scenarios.
             To tackle these issues, we present <span style="color: #036bfc;"><span class="dnerf">HumanSplat</span></span> that predicts the 3D Gaussian Splatting properties of any human from a single input image in a generalizable manner.
             In particular, HumanSplat comprises a 2D multi-view diffusion model and a latent reconstruction transformer with human structure priors that adeptly integrate geometric priors and semantic features within a unified framework.
             A hierarchical loss that incorporates human semantic information is further designed to achieve high-fidelity texture modeling and better constrain the estimated multiple views. Comprehensive experiments on standard benchmarks and in-the-wild images demonstrate that HumanSplat surpasses existing state-of-the-art methods in achieving photorealistic novel-view synthesis. 
-
-
           </p>
-        
+
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
   </div>
 </section>
 
+
+
+
+<!-- Results. -->
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
@@ -278,15 +263,12 @@
                     type="video/mp4">
           </video>
         </div>
-
-
         <div class="item item-fullbody">
           <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/add15.mp4"
                     type="video/mp4">
           </video>
         </div>
-
         <div class="item item-blueshirt">
           <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/add5.mp4"
@@ -317,28 +299,26 @@
 </section>
 
 
+
+
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Comparsion. -->
-
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Novel View Synthesis</h2>
-     
+
         <img src="./static/images/novel_view.jpg" width="98%" align="center"/>
-   
 
       </div>
     </div>
-
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Comparsion</h2>
-     
-          <video  width="100%" loop autoplay muted>
-            <source src="./static/videos/sota.mp4" type="video/mp4">
-          </video>
-   
+
+        <video  width="100%" loop autoplay muted>
+          <source src="./static/videos/sota.mp4" type="video/mp4">
+        </video>
 
       </div>
     </div>
@@ -350,62 +330,57 @@
 
         <div class="content has-text-justified">
           <p>
-            There's a lot of excellent work that was introduced.
-          </p>
-
-          <p>
-            <a href="https://river-zhang.github.io/SIFU-projectpage/"> SIFU (CVPR 24)</a> is capable of reconstructing a high-quality 3D clothed human model, making it well-suited for practical applications such as scene creation and 3D printing.
-          </p>
-
-          <p>
-            <a href="https://huangyangyi.github.io/TeCH/"> TeCH (3DV 24)</a> reconstructs the 3D human by leveraging  descriptive text prompts (e.g., garments, colors, hairstyles) which are automatically generated via a garment parsing model and Visual Question Answering (VQA),  a personalized fine-tuned Text-to-Image diffusion model (T2I) which learns the "indescribable" appearance. 
+            <a href="https://river-zhang.github.io/SIFU-projectpage/"> SIFU (CVPR'24)</a> is capable of reconstructing a high-quality 3D clothed human model, making it well-suited for practical applications such as scene creation and 3D printing.
           </p>
           <p>
-            <a href="https://river-zhang.github.io/GTA-projectpage/"> GTA (NeurIPS 23)</a>  is a novel transformer-based architecture that reconstructs clothed human avatars from monocular images.
+            <a href="https://huangyangyi.github.io/TeCH/"> TeCH (3DV'24)</a> reconstructs the 3D human by leveraging  descriptive text prompts (e.g., garments, colors, hairstyles) which are automatically generated via a garment parsing model and Visual Question Answering (VQA),  a personalized fine-tuned Text-to-Image diffusion model (T2I) which learns the "indescribable" appearance. 
           </p>
-         
-   
+          <p>
+            <a href="https://river-zhang.github.io/GTA-projectpage/"> GTA (NeurIPS'23)</a>  is a novel transformer-based architecture that reconstructs clothed human avatars from monocular images.
+          </p>
         </div>
+
       </div>
     </div>
-    <!--/ Concurrent Work. -->
 
   </div>
 </section>
 
 
 <section class="section" id="BibTeX">
-  
+
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     If you find our work helpful, please consider citing:
     <pre><code>
-    @article{pan2024humansplat,
-      title={HumanSplat: Generalizable Single-Image Human Gaussian Splatting with Structure Priors},
-      author={Pan, Panwang and Su, Zhuo and Lin, Chenguo and Fan, Zhen and Zhang, Yongjie and Li, Zeming and Shen, Tingting and Mu, Yadong and Liu, Yebin},
-      journal={arXiv preprint arXiv:2406.12459},
-      year={2024}
-    }
+@inproceedings{pan2024humansplat,
+  title={HumanSplat: Generalizable Single-Image Human Gaussian Splatting with Structure Priors}, 
+  author={Pan, Panwang and Su, Zhuo and Lin, Chenguo and Fan, Zhen and Zhang, Yongjie and Li, Zeming and Shen, Tingting and Mu, Yadong and Liu, Yebin},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2024}
+}
     </code></pre>
   </div>
+
 </section>
 
 
-<!-- <footer class="footer">
+
+<!-- Footer. -->
+<footer class="footer">
   <div class="container">
-    <div class="content has-text-centered">
-      <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p style="text-align: center">
+            Website template is borrowed from <a href="https://nerfies.github.io">Nerfies</a>.
+            Thanks for their effort.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
-</footer> -->
+</footer>
 
 </body>
 </html>
